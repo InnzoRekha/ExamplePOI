@@ -66,7 +66,7 @@ class Test {
   // sheet.setColumnWidth(1, (1+1)*5*256);
    
    InputStream inputStream2= new FileInputStream("C:\\Temp\\"+ filenames[i]);
-   System.out.println(i);
+   System.out.println("fffff"+i);
    System.out.println(filenames[i]);
    //Get the contents of an InputStream as a byte[].
    byte[] bytes2 = IOUtils.toByteArray(inputStream2);
